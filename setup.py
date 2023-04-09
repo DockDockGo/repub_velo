@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'repub_velo = repub_velo.repub_velo:main'
+            'repub_velo = repub_velo.repub_velo:main',
+            'repub_pcd = repub_velo.repub_pcd:main'
         ],
     },
 )
